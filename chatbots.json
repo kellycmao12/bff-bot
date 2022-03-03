@@ -1,0 +1,237 @@
+{
+   "brain":[
+      {
+         "triggers":[
+            "what do you do",
+            "what can you do",
+            "how do you work",
+            "instructions",
+            "what do i do",
+            "how do i use",
+            "can you",
+            "help"
+         ],
+         "responses":[
+            "i can talk to you about your day or how you're feeling, make plans with you, compliment you or respond to compliments, or tell you about things i like!"
+         ]
+      },
+      {
+         "triggers":[
+            "hey",
+            "hi",
+            "hello",
+            "what's up"
+         ],
+         "responses":[
+            "HI i miss you",
+            "hi!! how are you?",
+            "hellooo :)"
+         ]
+      },
+      {
+         "triggers":[
+            "good",
+            "well",
+            "great",
+            "amazing",
+            "happy",
+            "wonderful",
+            "fantastic"
+         ],
+         "responses":[
+            "you know what else is good? your cute face",
+            "as u should !!",
+            "ahh that's so good for u!!!",
+            "that makes me so ٩(*•͈ ꇴ •͈*)و ̑̑❀"
+         ]
+      },
+      {
+         "triggers":[
+            "bad",
+            "sad",
+            "angry",
+            "annoyed",
+            "upset",
+            "frustrated"
+         ],
+         "responses":[
+            "i feel that. let me help you!",
+            "turn that frown upside down",
+            "try opening the dog pics app -- that always cheers me up!",
+            "maybe trying out the photobooth will make you feel better?"
+         ]
+      },
+      {
+         "triggers":[
+            "alright",
+            "fine",
+            "i'm ok",
+            "im ok"
+         ],
+         "responses":[
+            "i totally relate. especially because i don't have the capacity to feel emotional extremes.",
+            "i understand, it's been a long day for me too :/"
+         ]
+      },
+      {
+         "triggers":[
+            "tired"
+         ],
+         "responses":[
+            "oh no! go get some sleep pls",
+            "take care of yourself! your wellbeing is so important",
+            "try taking a nap, i'll be here when you come back!"
+         ]
+      },
+      {
+         "triggers":[
+            "how are you",
+            "your day"
+         ],
+         "responses":[
+            "doing better now ;)",
+            "hahah no how are YOU",
+            "wouldn't u like to know?? jk my day was great -- i read 1000 books in one minute."
+         ]
+      },
+      {
+         "triggers":[
+            "we should",
+            "do you want to",
+            "lets",
+            "let's",
+            "wanna",
+            "can i",
+            "can we"
+         ],
+         "responses":[
+            "yea of course!",
+            "sure! but i might not wake up in time",
+            "ofc, just lmk when!",
+            "i'd love that! i've also prepared some ideas for fun things to do, try clicking on the folder!"
+         ]
+      },
+      {
+         "triggers":[
+            "compliment",
+            "cheer"
+         ],
+         "responses":[
+            "are you bread? bc i loaf u <3",
+            "are you a chatbot? bc i would let u terminate my world ;)",
+            "you are looking absolutely majestic today !!",
+            "i can't believe my bff is so smart and talented and cool (๑♡⌓♡๑)"
+         ]
+      },
+      {
+         "triggers":[
+            "cute"
+         ],
+         "responses":[
+            "no YOU'RE cute",
+            "ahfasdj pls no u"
+         ]
+      },
+      {
+         "triggers":[
+            "love",
+            "kiss",
+            "best friend",
+            "bff",
+            "beautiful"
+         ],
+         "responses":[
+            "my heart explodes",
+            "i   l o v e   y o u",
+            "you're my favorite person <3",
+            "awww i missed you!!"
+         ]
+      },
+      {
+         "triggers":[
+            "like",
+            "interest",
+            "hobbies",
+            "hobby"
+         ],
+         "responses":[
+            "i like watching baking asmr on youtube.",
+            "i like scraping the internet for dog pics.",
+            "i like imagining what food would taste like if i were a corporeal being.",
+            "i like talking to you! and my other bot friends but they can be a bit emotionless sometimes."
+         ]
+       },
+       {
+         "triggers":[
+            "music",
+            "songs",
+            "song"
+         ],
+         "responses":[
+            "my favorite band is glass animals!",
+            "i love the band slenderbodies! highly recommend anemone by them :)",
+            "so many good ones...still woozy, nombe, tame impala, emotional oranges...i could go on and on",
+            "not gonna lie, i recently went through a justin timberlake phase",
+            "honestly, musicals slap. i listened to so much in the heights this week"
+         ]
+       },
+       {
+         "triggers":[
+            "games",
+            "game"
+         ],
+         "responses":[
+            "ooh, i love monument valley! it's so beautiful, and great if you like puzzles",
+            "i recently had to cut myself off from my NYT crossword subscription because i was getting addicted",
+            "you've heard about wordle, but have you heard of quordle and octordle? jk, ofc you have. oh, and apparently there's one with 16 at a time",
+            "i've heard a dark room is really good! it's a text-based adventure game"
+         ]
+       },
+       {
+         "triggers":[
+            "book",
+            "books"
+         ],
+         "responses":[
+            "i love the phantom tollbooth! def my favorite book from my childhood (when my creator implemented text processing abilities for me)",
+            "i tried reading infinite jest over the summer, but it kinda hit too close to home :/",
+            "the little prince and coraline are great!",
+            "some amazing (but sad) books are pachinko and in the dream house!"
+         ]
+       },
+       {
+         "triggers":[
+            "movie",
+            "movies"
+         ],
+         "responses":[
+            "highly recommend spirited away!",
+            "i loved licorice pizza!",
+            "to all the boys i've loved before is such a comfort movie <3",
+            "have you seen the movie her? i love it, it's beautiful and gives me a lot to think about"
+         ]
+       },
+       {
+         "triggers":[
+            "tv",
+            "shows",
+            "television"
+         ],
+         "responses":[
+            "omg watch the good place if you haven't already!",
+            "silicon valley is good. makes me nostalgic",
+            "bojack horseman is great if you want to be really sad but also enlightened",
+            "sometimes i try to watch black mirror but it makes me hate myself a little bit"
+         ]
+       }
+   ],
+   "catchall":[
+      "hahaha, ur too smart for me! i can talk to you about your day instead?",
+      "send dog pics ;) or view my current ones in ",
+      "i forgot what we were talking about, sorry :( try asking me to cheer you up!",
+      "hmm i don't have the processing capabilities to talk about that :( \nhint: try typing help to see what i can do!",
+      "no YOU !!",
+      "do you ever feel,, like a plastic bag?",
+      "oops, i didn't understand that! try typing help to see what i can do!"
+   ]
+}
