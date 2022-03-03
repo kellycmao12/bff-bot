@@ -104,9 +104,9 @@ function preload() {
 
   tab = loadImage('img/window.png');
   navbar = loadImage('img/navbar.png');
-  doge = loadImage('img/doge.png');
-  shiba = loadImage('img/shiba.png');
-  undertaleDog = loadImage('img/undertale dog.png');
+  doge = loadImage('img/dogs/doge.png');
+  shiba = loadImage('img/dogs/shiba.png');
+  undertaleDog = loadImage('img/dogs/undertale dog.png');
   heart = loadImage('img/heart.png');
 
   dogSound = loadSound('happy bark.mp3');
