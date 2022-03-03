@@ -60,7 +60,7 @@ let funIdeas = [
   'watch glass animals music videos',
   'go on a bike ride (maybe not in nyc...)',
   'walk on the pier at sunset',
-  'go to a concert!',
+  'go to a concert and dance your heart out!',
   'check out a cute bakery or boba place!'
 ];
 let kaomoji = [
@@ -78,8 +78,8 @@ let kaomoji = [
   '(☆▽☆)',
   'o(>ω<)o'
 ];
-let currIdea = funIdeas[0];
-let currEmoji = kaomoji[0];
+let currIdea;
+let currEmoji;
 let ideaColor;
 
 let compliments = [
@@ -94,7 +94,7 @@ let compliments = [
   "what a beautiful amazing talented smart person you are",
   'you are the cutest person i have ever seen'
 ];
-let currCompliment = compliments[5];
+let currCompliment;
 
 let intro = "HI! IM BFFBOT, YOUR VIRTUAL BEST FRIEND! I'M ALWAYS HERE IF YOU NEED SOMEONE TO CHEER YOU UP OR KEEP YOU COMPANY! LET'S CHAT ABOUT YOUR DAY :)\n-------------";
 
@@ -219,6 +219,10 @@ function setup() {
   });
   // Hide the video element, and just show the canvas (we will draw the video to the canvas ourselves)
   capture.hide();
+
+  // randomly choose
+  newFunIdea();
+  currCompliment = random(compliments);
 }
 
 function draw() {
@@ -509,9 +513,15 @@ class App {
         for (let i = 0; i < dogPics.length; i++) {
           image(dogPics[i][0], dogPics[i][1], dogPics[i][2], 20, 20);
           dogPics[i][1]++;
-          if (dogPics[i][1] > tabX + tabSize * 0.35) {
-            dogPics[i][1] = tabX - tabSize * 0.42;
-            dogPics[i][2] = random(tabY - tabSize * 0.35, tabY + tabSize * 0.42);
+          if (dogPics[i][1] < tabX - tabSize * 0.42 || 
+            dogPics[i][1] > tabX + tabSize * 0.35) {
+              dogPics[i][1] = tabX - tabSize * 0.42;
+              dogPics[i][2] = random(tabY - tabSize * 0.35, tabY + tabSize * 0.42);
+          }
+          if (dogPics[i][2] < tabY - tabSize * 0.35 ||
+            dogPics[i][2] > tabY + tabSize * 0.35) {
+              dogPics[i][1] = tabX - tabSize * 0.42;
+              dogPics[i][2] = random(tabY - tabSize * 0.35, tabY + tabSize * 0.42);
           }
         }
 
