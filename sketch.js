@@ -352,6 +352,12 @@ function mouseReleased() {
   locked = false;
 }
 
+function keyPressed() {
+  if (keyCode === ENTER && currentApp == 'chat') {
+    answerMe();
+  }
+}
+
 class App {
   constructor(name, x, y) {
     this.name = name;
