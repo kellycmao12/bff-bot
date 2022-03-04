@@ -67,11 +67,11 @@ let kaomoji = [
   '(* ^ ω ^)',
   '(´ ∀ ` *)',
   '٩(◕‿◕｡)۶',
-  '☆*:｡.o(≧▽≦)o.｡*☆',
+  '☆*.o(≧▽≦)o*☆',
   '(o^▽^o)',
   '(⌒▽⌒)☆',
   '<(￣︶￣)>',
-  '。.:☆*:･(*⌒―⌒*)',
+  '。☆*･(*⌒―⌒*)',
   'ヽ(・∀・)ﾉ',
   '(´｡• ω •｡`)',
   '	ヽ(*・ω・)ﾉ',
@@ -208,7 +208,7 @@ function setup() {
 
   // create our capture object
   capture = createCapture(VIDEO);
-  capture.size(tabSize * 0.82, tabSize);
+  capture.size(tabSize * 0.83, tabSize);
   // set up ml5 to look for human body features in the capture object
   // call the 'modelReady' function when the model has been loaded and is ready to go
   poseNet = ml5.poseNet(capture, modelReady);
@@ -415,13 +415,13 @@ class App {
         image(navLabels.funIdeas, width/12, height - navbar.height/2);
 
         // fun ideas text
-        textAlign(LEFT);
-        textSize(tabSize/13);
-        textLeading(tabSize/16);
+        textAlign(CENTER);
+        textSize(tabSize/10);
+        textLeading(tabSize/12);
         fill(ideaColor);
-        text(currIdea.toUpperCase(), inputX, tabY - tabSize * 0.35, inputWidth);
+        text(currIdea.toUpperCase(), inputX + inputWidth * 0.11, tabY - tabSize * 0.2, inputWidth * 0.8);
         textFont('Helvetica');
-        text(currEmoji, inputX, tabY - tabSize * 0.15, inputWidth);
+        text(currEmoji, inputX, tabY + tabSize * 0.2, inputWidth);
         fill(0);
 
         // show funbttn
@@ -441,7 +441,7 @@ class App {
         // We can call both functions to draw all keypoints and the skeletons
         if (readyToGo) {
           imageMode(CORNER);
-          let captureX = tabX - (tabSize/2) * 0.895;
+          let captureX = tabX - (tabSize/2) * 0.9;
           let captureY = tabY - (tabSize/2) * 0.75;
           image(capture, captureX, captureY);
 
@@ -478,7 +478,7 @@ class App {
         else {
           textAlign(CENTER);
           fill(0);
-          text("MODEL LOADING", width/2, height/2);
+          text("CAMERA LOADING", width/2, height/2);
         }
 
         // show photoBttn
