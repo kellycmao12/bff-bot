@@ -298,6 +298,7 @@ function draw() {
 function answerMe() {
   //prepare the input string for analysis
   let inputStr = input.value();
+  input.value('');
   inputStr = inputStr.toLowerCase();
 
   //loop through the answers array and match responses to triggers
