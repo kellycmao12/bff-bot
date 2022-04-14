@@ -154,7 +154,7 @@ function setup() {
   //input field
   input = createInput("");
   inputX = tabX - tabSize * 0.42;
-  inputY = tabY + tabSize/2 - (100 + tabSize/5);
+  inputY = tabY + tabSize/2 - (150 + tabSize/5);
   inputWidth = tabSize * 0.75;
   input.size(inputWidth, 40);
   input.position(inputX, inputY);
