@@ -161,7 +161,7 @@ function setup() {
 
   //button to send input
   sendBttn = createButton("SEND");
-  sendBttn.size(100, tabSize/22 * 1.25);
+  sendBttn.size(150, tabSize/22 * 1.25);
   sendBttn.position(inputX, inputY + input.height + 8);
   sendBttn.mousePressed(answerMe); //callback to let the chatbot respond
   sendBttn.style('background-color', '#FFE4EE');
@@ -170,7 +170,7 @@ function setup() {
 
   //button to generate ideas
   funBttn = createButton("MORE IDEAS");
-  funBttn.size(150, tabSize/22 * 1.25);
+  funBttn.size(200, tabSize/22 * 1.25);
   funBttn.position(inputX, inputY + input.height + 8);
   funBttn.mousePressed(newFunIdea);
   funBttn.style('background-color', '#FFE4EE');
@@ -180,7 +180,7 @@ function setup() {
 
   //button to take photo
   photoBttn = createButton("TAKE A PIC");
-  photoBttn.size(100, tabSize/22 * 1.25);
+  photoBttn.size(200, tabSize/22 * 1.25);
   photoBttn.position(inputX, inputY + input.height + 8);
   photoBttn.mousePressed(takePhoto);
   photoBttn.style('background-color', '#FFE4EE');
@@ -189,7 +189,7 @@ function setup() {
 
   //button to pet dogs
   dogBttn = createButton("PET");
-  dogBttn.size(100, tabSize/22 * 1.25);
+  dogBttn.size(150, tabSize/22 * 1.25);
   dogBttn.position(inputX, inputY + input.height + 8);
   dogBttn.mousePressed(playDogSound);
   dogBttn.style('background-color', '#FFE4EE');
@@ -244,7 +244,9 @@ function draw() {
 
   let time = '';
 
-  if (hour() < 12) {
+  if (hour() == 0) {
+    time += '12:'
+  } else if (hour() <= 12) {
     time += hour() + ':';
   } else {
     time += hour() - 12 + ':';
