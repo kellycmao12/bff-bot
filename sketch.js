@@ -325,7 +325,7 @@ function takePhoto() {
 }
 
 function playDogSound() {
-  dogSound.play(0, 0.6, 0.1, 1.6, 1);
+  dogSound.play();
 }
 
 function modelReady() {
