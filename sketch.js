@@ -109,7 +109,7 @@ function preload() {
   undertaleDog = loadImage('img/dogs/undertale dog.png');
   heart = loadImage('img/heart.png');
 
-  dogSound = loadSound('happy bark.mp3');
+  dogSound = loadSound('happy bark.wav');
   newFont = loadFont('Dhurjati-Regular.ttf');
 
   headers = {
